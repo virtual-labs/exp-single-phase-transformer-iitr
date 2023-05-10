@@ -2,10 +2,10 @@
 
    "details": [
        {
-			"Experiment": "Determination of Transformer equivalent circuit from Open Circuit and Short Circuit Test",     
-			"Lab": "Electrical Machines (Simulation)",               
+			"Experiment": "To Study the efficiency of single phase transformer by load test.",     
+			"Lab": "Basic Electrical Science",               
 			"Discipline": "Electrical Engineering",				 
-			"Technology": "HTML, JavaScript, CSS, Google Web Designer"         
+			"Technology": "HTML, JavaScript, CSS"         
        }
    ],
 
@@ -18,12 +18,7 @@
    ],
 
    "contributer": [
-       {       
-			"Contributer": "Jasbir Singh",             
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
-       },
-
+       
        {       
 			"Contributer": "Rajeev Kumar",              
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
@@ -31,15 +26,15 @@
        },
 
        {       
-			"Contributer": "Priyanshi Agarwal",             
+			"Contributer": "Piyush Rawat",             
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
        },
 
        {       
-      "Contributer": "Team Government Engineering College",              
-      "Institute": "Government Engineering College Bikaner",               
-      "InstituteAcronym": "GEC Bikaner"         
+      "Contributer": "Rahul Saini",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+      "InstituteAcronym": "IITR"         
        }
    ]
 

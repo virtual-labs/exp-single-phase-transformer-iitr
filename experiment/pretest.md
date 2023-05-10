@@ -1,40 +1,108 @@
-## <b> Pre-test
+
+## Pre Test 
+
 #### Please attempt the following questions
-<br>
 
-Q1. Transformers with high leakage impedance is used in<br>
+<div align="justify" style="font-size:18px;">
 
-<b> A power generating terminals<br></b>
-B power distribution<br>
-C arc welding<br>
-D none of the mentioned<br><br>
+Q1. The reactance of a transformer depends on-
 
+A. Size of the core
 
-Q2. If the per unit leakage impedance for the primary of a transformer is ‘x’ on the given rated base value. If the voltage and volt-amperes are halved, then the changed per unit impedance will be<br>
- 
-A 0.5x<br>
-<b>B 2x<br> </b>
-C 4x<br>
-D x<br>
+B. Size of the tank
 
+C. Leakage flux
 
-Q3. The voltage regulation for transformer is given by<br>
+D. All of the above
 
-A (E2-V2)/E2<br>
-B (E2-V2)/V2<br>
-C (V2-E2)/E2<br>
-<b>D (V2-E2)/V2<br></b>
+Q2. Which winding of the transformer has less cross-sectional area?
 
-Q4. A 2000/1000/500 three winding transformer is to be used as auto transformer with supply of 3000 V. Two loads of 1050 kVA at 3500V, and other one at 180 kVA at 1000V. The total kVA supplied will be<br>
+A. Primary winding
 
-A 1150 kVA<br>
-B 1440 kVA<br>
-C 1680 kVA<br>
-<b> D 1230 kVA<br></b>
+B. Secondary winding
 
-Q5. Two single phase transformers A and B are operating in parallel having same impedance. But the x/r ratio of them are not equal. Then total kVA output will be<br>
+C. Low voltage winding
 
-A equal to sum of kVA of A and B<br>
-B more than sum of kVA of A and B<br>
-<b> C less than sum of kVA of A and B<br></b>
-D any of the mentioned<br>
+D. High voltage winding
+
+Q3. An ideal transformer is one which has-
+
+A. No losses and magnetic leakage
+
+B. Interleaved primary and secondary winding
+
+C. A common core for its primary and secondary windings
+
+D. Core of stainless steel and winding of pure copper metal
+
+Q4. Negative voltage regulation is indicative that the load is?
+
+A. Capacitive load
+
+B. Inductive load
+
+C. Indicative or resistive
+
+D. None of the above
+
+Q5. The necessity of the load test for a transformer to calculate-
+
+A. Efficiency
+
+B. Thermal stability
+
+C. Dynamic stability
+
+D. All of the above
+
+Q6. When secondary of a current transformer is open circuited its iron core-
+
+A. Will be hot because of heavy iron losses taking place in it due to high flux density
+
+B. Hot because primary will carry heavy current
+
+C. Cool as there is no secondary current
+
+D. None of the above
+
+Q7. In a transformer on load the total primary current is given by-
+
+A. Load component of secondary current
+
+B. Sum of magnetizing current and reflected load current on primary side
+
+C. Reflected load current on primary side
+
+D. Magnetizing current
+
+Q8. A single phase transformer after having open circuit test gave following reading $V_1$=750V, $V_2$=500V, I=1A, W=50W When the same transformer runs on load afterwards, what will be the secondary current if the primary current is 250A at 0.8 pf lagging?
+
+A. 374∠-36.7°
+
+B. 375∠-36.87°
+
+C. 374∠-38.1°
+
+D. 375∠-38.1°
+
+Q9. When will be the efficiency of a transformer maximum?
+
+A. Copper losses = hysteresis losses
+
+B. Hysteresis losses = eddy current losses
+
+C. Eddy current losses = copper losses
+
+D. Copper losses = iron losses
+
+Q10. Efficiency of a power transformer is near to the ___________ . 
+
+A. 100%
+
+B. 98%
+
+C. 50%
+
+D. 25%
+
+</div>
