@@ -1,1 +1,1 @@
-#### Determination of Transformer equivalent circuit from Open Circuit and Short Circuit Test.
+To Study the efficiency of single phase transformer by load test.
