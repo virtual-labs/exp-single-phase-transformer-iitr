@@ -1,91 +1,62 @@
-### Introduction 
-The open circuit and short circuit tests are performed for determining the parameter of the transformer like their efficiency, voltage regulation, circuit constant etc. These tests are performed without the actual loading and because of this reason very less power is required for the test. The open circuit and the short circuit test gives a very accurate result as compared to the full load test.<br>
 
-### Open Circuit Test
-The purpose of the open-circuit test is to determine the no-load current and losses of the transformer because of which their no-load parameter is determined. This test is performed on the primary winding of the transformer. The wattmeter, ammeter, and the voltage are connected to their primary winding. The nominal rated voltage is supplied to their primary winding with the help of the ac source.<br>
-The secondary winding of the transformer is kept open and the voltmeter is connected to their terminal. This voltmeter measures the secondary induced voltage. As the secondary of the transformer is open, no-load current flows through the primary winding.
-The value of no-load current is very small as compared to the full rated current. The copper loss occurs only on the primary winding of the transformer because the secondary winding is open. The reading of the wattmeter only represents the core and iron losses. The core loss of the transformer is same for all types of loads.<br>
+### Theory
 
-<Center><p><img src='images/open.PNG'  style="width:500px;height:250px;">
-</p></Center>
-<center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
+<div align="justify" style="font-size:18px;">
 
+The transformer is a device which transfers energy from one electrical circuit to another electrical circuit through magnetic field as coupling medium. In this process it does not change the frequency of voltage or current. It works on the basic principle of electromagnetic induction (mutually induced e.m.f.) being a static device it has a very efficiency as compared to rotating machine of same rating as the losses are less.
 
-### Calculation of Open Circuit Test:
-Let,<br>
+<center> 
 
-W<sub>0</sub> – wattmeter reading<br>
-V<sub>1</sub> – voltmeter reading<br>
-I<sub>0</sub> – ammeter reading<br>
-Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
+![transformer1](images/transformer1.png)
 
-$$W_0 = V_1I_0CosФ ............................eq (1)$$
+Figure 1: Single phase transformer on load test
 
-The no-load power factor is
+</center> 
 
-$$CosФ = \frac{W_0}{V_1I_0}$$
+In a practical transformer there are two type of losses:-
+* Cu loss
+* Core/iron loss
 
-Working component I<sub>w</sub> is
+Therefore, Output of a transformer is always less than input of the transformer because of losses.
 
-$$I_w = \frac{W_0}{V_1} .............................  eq (2)$$
+Here, Transformer is loaded with a variable resistive load input to the transformer can be by using a wattmeter and output can also be measured by a wattmeter or with the help of voltmeter & ammeter.
 
-Putting the value of W<sub>0</sub> from the equation (1) in equation (2) you will get the value of working component as
+Input power to transformer = reading of wattmeter
 
-$$I_w = I_0CosФ$$
+Output power from transformer = $V_2*I_2$ [since cosɸ=load p.f.=1]
 
-Magnetizing component is<br>
+When primary winding of transformer is energized with source of voltage $V_1$ an e.m.f. $E_2$ is induced across the secondary winding and it also equal to secondary terminal voltage $V_2$ till there is no load across secondary winding. As soon as load is applied across the secondary winding the terminal voltage is decreased from $E_2$ to $V_2$ this phenomenon of changing the voltage is called *"Voltage regulation"*.
 
-$$I_m = [{I_0}^2 - {I_w}^2]^{1/2}$$
+$$ VR =\frac {(NoLoadVoltage)-(DerivedLoadVoltage)} {NoLoadVoltage}*100 $$
 
-No load parameters are given below:<br>
+Transformer's efficiency directly affects its performance and aging. The transformer's efficiency, in general, is in the range of 95 - 99 %. For large power transformers with very low losses, the efficiency can be as high as 99.7%. The input and output measurements of a transformer are not done under loaded conditions as the wattmeter readings inevitably suffer errors of 1 - 2%. So for the purpose of efficiency calculations, OC and SC tests are used to calculate rated core and winding losses in the transformer. The core losses depend on the transformer rated voltage, and the copper losses depend on the currents through the transformer primary and secondary windings. Hence transformer efficiency is of prime importance to operate it under constant voltage and frequency conditions. The rise in the temperature of the transformer due to heat generated affects the life of transformer oil properties and decides the type of cooling method adopted. The temperature rise limits the rating of the equipment. The **Efficiency of transformer** is simply given as:
 
-Equivalent exciting resistance is<br>
+$$ⴄ =\frac {Output power} {Input power} *100 % $$
 
-$$R_0 = \frac{V_1}{I_w}$$
+<center> 
 
-Equivalent exciting reactance is
+![transformer2](images/transformer2.png)
 
-$$X_0 = \frac{V_1}{I_m}$$
+Figure 2: Plot for efficiency of transformer
 
-### Short Circuit Test:
+</center> 
 
-The short circuit test is performed for determining the below mention parameter of the transformer.<br>
+### Advantages of Single phase transformer:-
 
-1. It determines the copper loss occurs on the full load. The copper loss is used for finding the efficiency of the transformer.<br>
-2. The equivalent resistance, impedance, and leakage reactance are known by the short circuit test.<br>
+ * The cost of stand by the unit transformer is reduced.
 
-The short circuit test is performed on the secondary or high voltage winding of the transformer. The measuring instrument like wattmeter, voltmeter, and ammeter are connected to the high voltage winding of the transformer. Their primary winding is short circuited by the help of thick strip or ammeter which is connected to their terminal.
-The low voltage source is connected across the secondary winding because of which the full load current flows from both the secondary and the primary winding of the transformer. The full load current is measured by the ammeter connected across their secondary winding.<br><br>
-The low voltage source is applied across the secondary winding which is approximately 5 to 10% of the normal rated voltage. The flux is set up in the core of the transformer. The magnitude of the flux is small as compared to the normal flux.
-The iron loss of the transformer depends on the flux. It is less occur in the short circuit test because of the low value of flux. The reading of the wattmeter only determines the copper loss occur on their windings. The voltmeter measures the voltage applied to their high voltage winding. The secondary current induces in the transformer because of the applied voltage.<br>
+ * The system is reliable, and service continuity ensures when transformers are connected in parallel.
 
-<Center><img src='images/short.PNG' style="width:500px;height:250px;"></Center>
-<center><b>Fig. 2 Equivalant circuit diagram for short circuit test on transformer</b></center>
+ *  The transformer can switch on or off based on the load demand.
 
- 
-### Calculation of Short Circuit Test:
+ *  If more transformed works in parallel the chance of overloading of particular transformer reduces.
 
-Let,<br>
+### Disadvantages of Single phase transformer:-
 
-W<sub>c</sub> – Wattmeter reading<br>
-V<sub>sc</sub> – Voltmeter reading<br>
-I<sub>sc</sub> – Ammeter reading<br>
+ * The maintenance cost becomes more.
 
-Then the full load copper loss of the transformer is given by<br>
+ * The space required for installing the transformed is more.
 
-$$P_c =  \left [\frac{I_{fl}}{I_{sc}}\right ]^2.W_c$$
-
-$$I_{sc}^2 R_s = W_c$$
-
-Equivalent resistance referred to secondary side is
-
-$$R_s = \frac{W_c}{I_{sc}^2}$$
-
-Equivalent impedance referred to the secondary side is given by<br>
-
-$$Z_s = \frac{V_{sc}}{I_{sc}}$$
-
-The Equivalent reactance referred to the secondary side is given by<br>
-
-$$Xs = [(Z_s)^2 - (R_s)^2]^{1/2}$$
-
+ * When one or more transformer works on a parallel then chance of fault occurrence will be increased.
+  
+</div>
