@@ -465,8 +465,8 @@ check.onclick = function MyCheck() {
     }
 
     else {
-        window.alert("Invalid Connnections")
-        window.location.reload()
+        window.alert("Please make all the Connections");
+        window.location.reload();
     }
 }
 
@@ -534,7 +534,9 @@ function toggleS1(num) {
 }
 
 swit2.onclick = function call1() {
+
     if ((sw2_disabled == 0)) {
+
         toggleS1(0)
         toggleS2(1)
         toggleS3(0)
@@ -543,24 +545,30 @@ swit2.onclick = function call1() {
         add.disabled = false
         sw3_disabled = 1
         updateAmmeters()
+
     }
 }
 
 function toggleS2(num) {
+
     if (num == 0) {
+
         swit2.src = 'images/Switch_Off.png'
         Load2.src = 'images/y_off.png'
     }
+
     else if (num == 1) {
+
         swit2.src = 'images/Switch_On.png'
-        Load1.src = 'images/r_on.png'
         Load2.src = 'images/y_on.png'
     }
 
 }
 
 swit3.onclick = function call1() {
+
     if (sw3_disabled == 0) {
+        
         toggleS1(0)
         toggleS2(0)
         toggleS3(1)
@@ -579,8 +587,6 @@ function toggleS3(num) {
     }
     else if (num == 1) {
         swit3.src = 'images/Switch_On.png'
-        Load1.src = 'images/r_on.png'
-        Load2.src = 'images/y_on.png'
         Load3.src = 'images/b_on.png'
     }
 }
@@ -619,7 +625,7 @@ function updateAmmeters() {
         w1val = 70 * (var_voltage / 220)
         v2val = 105 * (var_voltage / 220)
         a2val = 1 * (var_voltage / 220)
-        w2val = 20 * (var_voltage / 220)
+        w2val = 10 * (var_voltage / 220)
         eff = 29
         reg = 2.77
     }
@@ -629,7 +635,7 @@ function updateAmmeters() {
         w1val = 130 * (var_voltage / 220)
         v2val = 104 * (var_voltage / 220)
         a2val = 2 * (var_voltage / 220)
-        w2val = 80 * (var_voltage / 220)
+        w2val = 40 * (var_voltage / 220)
         eff = 62
         reg = 3.7
     }
@@ -639,7 +645,7 @@ function updateAmmeters() {
         w1val = 185 * (var_voltage / 220)
         v2val = 102 * (var_voltage / 220)
         a2val = 2.9 * (var_voltage / 220)
-        w2val = 160 * (var_voltage / 220)
+        w2val =  80 * (var_voltage / 220)
         eff = 86
         reg = 5.55
     }
@@ -653,10 +659,9 @@ function updateAmmeters() {
 }
 
 
-
 add.onclick = function AddToTable() {
-    let row = vtable.insertRow(index);
 
+let row = vtable.insertRow(index);
     let Sno = row.insertCell(0);
     let V1 = row.insertCell(1);
     let A1 = row.insertCell(2);
@@ -720,10 +725,11 @@ prnt.onclick = function prntScr() {
     window.print();
 }
 
-plot.onclick = function (){
+plot.onclick = function () {
     if (vtable.rows.length >= 4) {
 
         prnt.disabled = false
+        plot.disabled=1;
 
         var temp1 = document.getElementById("chart-container")
         var temp2 = temp1.innerHTML
