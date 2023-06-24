@@ -2,7 +2,7 @@
 
    "details": [
        {
-			"Experiment": "To Study the efficiency of single phase transformer by load test.",     
+			"Experiment": "To Study and measure the Voltage, Current, Power and Power factor in Parallel RLC circuit.",     
 			"Lab": "Basic Electrical Science",               
 			"Discipline": "Electrical Engineering",				 
 			"Technology": "HTML, JavaScript, CSS"         
@@ -23,7 +23,7 @@
 			"Contributer": "Rajeev Kumar",              
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
-       },
+       },   
 
        {       
 			"Contributer": "Piyush Rawat",             
