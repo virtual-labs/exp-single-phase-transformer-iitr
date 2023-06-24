@@ -1,0 +1,102 @@
+[
+    {
+        "question": "On which factors transformer routine efficiency depends upon?",
+        "answers": {
+            "a": "Supply frequency",
+            "b": "Load current",
+            "c": "Power factor of load",
+            "d": "Load current and power factor of load"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Power transformers are designed to have maximum efficiency at?",
+        "answers": {
+            "a": "Nearly full load",
+            "b": "70% full load",
+            "c": "50% full load",
+            "d": "No load"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "A transformer having maximum efficiency at 75% full load will have ratio of iron loss and full load copper loss equal to ___________",
+        "answers": {
+            "a": "4/3",
+            "b": "3/4",
+            "c": " 9/16",
+            "d": "16/9"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What is the correct formula of efficiency of a device?",
+        "answers": {
+            "a": "Input / output",
+            "b": "Output/ losses",
+            "c": "1- losses/  output + losses",
+            "d": "Cannot be determined"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "A transformer will have zero regulation at?(pf = power factor)",
+        "answers": {
+            "a": "Zero pf",
+            "b": "Leading pf",
+            "c": "Unity pf",
+            "d": "Lagging pf"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "The regulation of a two winding transformer is 5% at full load unity power factor. At full load 0.8 power factor lagging the regulation would be:-",
+        "answers": {
+            "a": "5%",
+            "b": "Less than 5%",
+            "c": " More than 5%",
+            "d": "5% or more than 5%"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "A transformer rated for 5kVA, 400V/200V, 50 Hz, has a leakage impedance of $z = r+jx $ referred to HV side. Its voltage regulation at full load will be maximum at a power factor of:",
+        "answers": {
+            "a": "r/z  leading",
+            "b": "r/x laggin",
+            "c": "x/z leading",
+            "d": "r/z lagging"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "In a transformer zero voltage regulation at full load can happen",
+        "answers": {
+            "a": "At leading power factor load",
+            "b": "At lagging power factor load",
+            "c": "A unity power factor load",
+            "d": "Can not happen at all"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "The voltage regulation of a transformer having 2% resistance and 5% reactance at full load, 0.8 pf lagging is",
+        "answers": {
+            "a": "4.6%",
+            "b": "-4.6%",
+            "c": "-1.4%",
+            "d": "6.4%"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": " If the output of a transformer is 600W whereas the losses are 200W, the efficiency of the transformer will be:",
+        "answers": {
+            "a": "50%",
+            "b": "41.4%",
+            "c": "75%",
+            "d": "66.6%"
+        },
+        "correctAnswer": "c"
+    }
+]
