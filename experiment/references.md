@@ -1,4 +1,4 @@
-### Refrences
+### Refrences 
 
 1) U.A. Bakshi, A.V. Bakshi,K.A. Bakshi, "Electrical Measurements", Technical Publication Pune, First edition, 2008<br>
 2) J.B. Gupta, "A Course in Electrical and Electronic Measurements & Instrumentation",  S.K. Kataria & Sons, Fourteenth edition, 2014<br>
