@@ -1,107 +1,122 @@
+
 ## Post Test 
+#### Please attempt the following questions
 
-#### Please attempt the folloeing questions
+ <div align="justify" style="font-size:18px;">
+ 
+Q1. For the following circuit. Calculate magnitude of impedance?
 
-<div align="justify" style="font-size:18px;">
+![](images/posttest1.png)
 
-Q1. On which factors transformer routine efficiency depends upon?
+A. 187.97
 
-A. Supply frequency
+B. 192.18
 
-B. Load current
+C. 76.22
 
-C. Power factor of load
+D. 201.87
+ 
+Q2. For the following circuit. Calculate the phase angle of impedance?
 
-D. Load current and power factor of load
+![](images/posttest2.png)
 
-Q2. Power transformers are designed to have maximum efficiency at?
+A. 41.3
 
-A. Nearly full load
+B. 32.5
 
-B. 70% full load
+C. 60.3
 
-C. 50% full load
+D. 55.1
+ 
+Q3. For the following circuit. Calculate the magnitude of phase current?
 
-D. No load
+![](images/posttest3.png)
 
-Q3. A transformer having maximum efficiency at 75% full load will have ratio of iron loss and full load copper loss equal to ____________.
+A. 0.228 A
 
-A. 4/3
+B. 0.345 A
 
-B. 3/4
+C. 0.639 A
 
-C. 9/16
+D. 0.541 A
+ 
+Q4. For a parallel RLC circuit with a 16Ω resistor, 8Ω inductor, 20Ω capacitor, and a 120V power supply. Find the Current through the capacitor?
 
-D. 16/9
+A. 7 A
 
-Q4. What is the correct formula of efficiency of a device?
+B. 7.5 A
 
-A. $\frac{Input} {output}$
+C. 15 A
 
-B. $\frac {Output} {losses}$
+D. 6 A
+ 
+Q5. For a parallel RLC circuit with a 16Ω resistor, 8Ω inductor, 20Ω capacitor, and a 120V power supply. Find the source current?
 
-C. $ 1 - \frac{(losses)} {(output + losses)}$
+A. 11.71 A
 
-D. Cannot be determined
+B. 23.22 A
 
-Q5. A transformer will have zero regulation at pf?
+C. 10.91 A
 
-A. Zero pf
+D. 9.89 A
+ 
+Q6. While drawing vector diagram for a series circuit, the reference vector is?
 
-B. Leading pf
+A. Voltage
 
-C. Unity pf
+B. Current
 
-D. Lagging pf
+C. Power
 
-Q6 The regulation of a two winding transformer is 5% at full load unity power factor. At full load 0.8 power factor lagging the regulation would be:-
+D. Phase angle
+ 
+Q7. For the following parallel RLC circuit. Find conductance?
 
-A. 5%
+![](images/posttest4.png)
 
-B. Less than 5%
+A. 0.001
 
-C. More than 5%
+B. 0.002
 
-D. None of the above
+C. 0.003
 
-Q7. A transformer rated for 5kVA, 400V/200V, 50 Hz, has a leakage impedance of $z = r+jx $ referred to HV side. Its voltage regulation at full load will be maximum at a power factor of:
+D. 0.004
+ 
+Q8. For the following parallel RLC circuit. Calculate admittance?
 
-A. $\frac{R}{Z}$ leading
+![](images/posttest5.png)
 
-B. $\frac{R}{X}$ lagging
+A. 0.089
 
-C. $\frac{X}{Z}$ leading
+B. 0.0455
 
-D. $\frac{R}{Z}$ lagging
+C. 0.078
 
-Q8. In a transformer zero voltage regulation at full load can happen
+D. 0.092
+ 
+Q9. For the following parallel RLC circuit. Calculate source current?
 
-A. At leading power factor load
+![](images/posttest6.png)
 
-B. At lagging power factor load
+A. 3.87
 
-C. A unity power factor load
+B. 4.12
 
-D. Cannot happen at all
+C. 1.27
 
-Q9. The voltage regulation of a transformer having 2% resistance and 5% reactance at full load, 0.8 pf lagging is
+D. 2.92
+ 
+Q10. For the following parallel RLC circuit. Calculate power factor?
 
-A. 4.6%
+![](images/posttest7.png)
 
-B. -4.6%
+A. 0.965 lead
 
-C. -1.4%
+B. 0.965 lag
 
-D. 6.4%
+C. 0.259 lead
 
-Q10. If the output of a transformer is 600W whereas the losses are 200W, the efficiency of the transformer will be:
-
-A. 50%
-
-B. 41.4%
-
-C. 75%
-
-D. 66.6%
+D. 0.259 lag
 
 </div>
+
