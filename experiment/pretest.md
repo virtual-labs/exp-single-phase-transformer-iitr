@@ -1,119 +1,108 @@
+
 ## Pre Test 
+
 #### Please attempt the following questions
 
 <div align="justify" style="font-size:18px;">
 
-1. In a parallel RLC circuit, the phase difference between the voltage across the capacitor and the voltage across the resistor is? 
+Q1. The reactance of a transformer depends on-
 
-A. 0°
+A. Size of the core
 
-B. 90°
+B. Size of the tank
 
-C. 180°
+C. Leakage flux
 
-D. 360°
+D. All of the above
 
-Q2. In a parallel RLC circuit, the phase difference between the voltage across the inductor and the voltage across the resistor is?
+Q2. Which winding of the transformer has less cross-sectional area?
 
-A. 0°
+A. Primary winding
 
-B. 90°
+B. Secondary winding
 
-C. 180°
+C. Low voltage winding
 
-D. 360°
+D. High voltage winding
 
-Q3. A two branch tuned circuit has a coil of Resistance R and Inductance L in one branch and Capacitance C in the second branch. If R is increased, the dynamic resistance is ?
+Q3. An ideal transformer is one which has-
 
-A. Increase or Decrease
+A. No losses and magnetic leakage
 
-B. Decreases
+B. Interleaved primary and secondary winding
 
-C. Remains Constant
+C. A common core for its primary and secondary windings
 
-D. Increases
+D. Core of stainless steel and winding of pure copper metal
 
-Q4. The applied voltage in a parallel RLC circuit is given by -
+Q4. Negative voltage regulation is indicative that the load is?
 
-V= 100 sin( 314t + (π/4))  
+A. Capacitive load
 
-    If the values of R, L and C be given as 30 Ω, 1.3 mH and 30 μF. Find magnitude of admittance?
+B. Inductive load
 
-A. 4.818
+C. Indicative or resistive
 
-B. 3.223
+D. None of the above
 
-C. 2.439
+Q5. The necessity of the load test for a transformer to calculate-
 
-D. 1.212
- 
-Q5. The applied voltage in a parallel RLC circuit is given by
+A. Efficiency
 
- V= 100 sin( 314t + (π/4)) 
-  
-  If the values of R, L and C be given as 30 Ω, 1.3 mH and 30 μF. Find phase angle?
+B. Thermal stability
 
-A. -75.92°
+C. Dynamic stability
 
-B. 75.92°
+D. All of the above
 
-C. 89.22°
+Q6. When secondary of a current transformer is open circuited its iron core-
 
-D. -89.22°
- 
-Q6. The applied voltage in a parallel RLC circuit is given by
+A. Will be hot because of heavy iron losses taking place in it due to high flux density
 
-   V= 100 sin( 314t + (π/4)) 
+B. Hot because primary will carry heavy current
 
- If the values of R, L and C be given as 30 Ω, 1.3 mH and 30 μF. Find source current?
+C. Cool as there is no secondary current
 
-A. -172.486∠44.22°
+D. None of the above
 
-B. 172.486∠-44.22°
+Q7. In a transformer on load the total primary current is given by-
 
-C. 172.486∠44.22°
+A. Load component of secondary current
 
-D. -172.486∠-44.22°
- 
-Q7. In RLC parallel circuit, if current through capacitor and inductor is equal, then, what is the power factor?
+B. Sum of magnetizing current and reflected load current on primary side
 
-A. Lagging
+C. Reflected load current on primary side
 
-B. Leading
+D. Magnetizing current
 
-C. Unity
+Q8. A single phase transformer after having open circuit test gave following reading $V_1$=750V, $V_2$=500V, I=1A, W=50W When the same transformer runs on load afterwards, what will be the secondary current if the primary current is 250A at 0.8 pf lagging?
 
-D. Zero
+A. 374∠-36.7°
 
-Q8. For a parallel RLC circuit with 6A through the resistor, 8A through the inductor, 5A through the capacitor. Calculate total line current?
+B. 375∠-36.87°
 
-A. 5.2 A
+C. 374∠-38.1°
 
-B. 3.1 A
+D. 375∠-38.1°
 
-C. 7.2 A
+Q9. When will be the efficiency of a transformer maximum?
 
-D. 6.7 A
+A. Copper losses = hysteresis losses
 
-Q9. For a parallel RLC circuit with a 16Ω resistor, 8Ω inductor, 20Ω capacitor, and a 120V power supply. Find the Current through the resistor?
+B. Hysteresis losses = eddy current losses
 
-A. 7 A
+C. Eddy current losses = copper losses
 
-B. 7.5 A
+D. Copper losses = iron losses
 
-C. 15 A
+Q10. Efficiency of a power transformer is near to the ___________ . 
 
-D. 6 A
+A. 100%
 
-Q10. For a parallel RLC circuit with a 16Ω resistor, 8Ω inductor, 20Ω capacitor, and a 120V power supply. Find the Current through the inductor?
+B. 98%
 
-A. 7 A
+C. 50%
 
-B. 7.5 A
-
-C. 15 A
-
-D. 6 A
-
+D. 25%
 
 </div>

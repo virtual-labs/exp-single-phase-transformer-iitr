@@ -5,11 +5,11 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|     <b> To Study and measure the Voltage, Current, Power and Power factor in Parallel RLC circuit.
+<b> Experiment|     <b> To Study the efficiency of single phase transformer by load test.
 
 <h5> About the Experiment : </h5> <br>
 
-To Study and measure the Voltage, Current, Power and Power factor in Parallel RLC circuit.
+To Study the efficiency of single phase transformer by load test.
 
 <b>Name of Developer | <b> Prof. RS Anand
 :--|:--|
