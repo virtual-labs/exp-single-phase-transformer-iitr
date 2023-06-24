@@ -1,22 +1,31 @@
 ### Steps to perform experiment
-<br>
-  
- **Step 1:** Make connections as per the instructions given below.
-                   
-**(a)** 1-23, 2-24<br/>
-**(b)** 3-25, 4-26<br/>
-**(c)** 5-25, 6-9, 6-10, 7-18<br/>
-**(d)** 8-11<br/>
-**(e)** 11-13 , 13-15, 12-17<br/>
-**(f)** 18-20, 14-19, 16-21<br/>
-**(g)** 20-22, 26-7<br/>
-               
-**Note: Click on the label to delete connection for the corresponding node.**<br/><br/>
-**Step 2:** Now, Check the connections by clicking on <b> ‘CHECK’</b> button.<br/>
-**Step 3:** If the connections are <b> ‘Invalid connections’</b> click on corresponding node to remove the connection,And if the connections are <b>‘Right Connections’</b> then follow the below steps.<br/>
-<b> Step 4:</b> Turn on the MCB.<br/>
-<b> Step 5:</b> Switch on the variac by clicking on the button.<br/>
-<b> Step 6:</b> Click on the variac knob to set the voltage at 220V.<br/>
-<b> Step 7:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation table.<br/>
-<b> Step 8:</b> In Calculations section, We have to manually calculate the values by using the formula and verify it with the help of <b>'Verify'</b> button.<br/>
 
+ **Step1:** Make connections as per the instructions given below:<br>
+**(a)** (1-3 , 2-4) <br>
+**(b)** (5-7 , 6-8)<br>
+**(c)** (7-9 , 10-13, 13-14)<br>
+**(d)** (12-15 ,8-11, 11-16)<br>
+**(e)** (17-21, 18-22)<br>
+**(f)** (21-23)<br>
+**(g)** (24-27,27-28)<br>
+**(h)** (22-25) <br>
+**(i)** (19-26,20-25)<br><br>
+
+**Note: Click on the label to delete the connection for the corresponding node.** <br>       
+**(a)** Now, Check the connections by clicking on <b>‘CHECK’</b> button.<br>
+**(b)** If the connections are <b> ‘Invalid connections’</b> the webpage will reload automatically.<br>
+**(c)** And if the connections are <b> ‘Right Connections’</b> then follow the below steps.<br>
+**Step 2:** </b>Turn on the MCB.<br>
+<b>Step 3:</b> Then, switch on the variac by clicking on the button.<br>
+<b>Step 4:</b>Then, Click on the variac knob to set the voltage at 230V.<br>
+<b>Note:Once,we have click on the variac knob it automatically set to 230V. So we don’t have to set it again.</b> <br>
+<b>Step 5:</b> Now, Click on <b>'ADD'</b> button to take the reading with no-load. <br>
+<b>Step 6:Case 1:</b>Then, Click on the <b> switch1</b> to Turn on the first row of the Lamp load. <br>
+<b>Step 7:</b>Now, Click on <b> ‘ADD’</b> button to add the readings in the observation table. <br>
+<b>Step 8:Case 2:</b>Then, Click on the <b> switch2</b> to Turn on the Second row of the Lamp load.</li> <br>
+<b>Step 9:</b>Now, Click on <b>‘ADD’ </b> button to add the readings in the observation table.</b><br>
+<b>Step 10:Case 3:</b>Then, Click on the <b> switch3</b> to Turn on the third row of the Lamp load.<br>
+<b>Step 11:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation table. <br>
+<b>Step 12:</b>Now, Click on <b>‘PLOT’</b> button to plot the graph.</b><br>
+<b>Step 13:</b>Click on <b>‘PRINT’</b> button to takeout the print of the webpage.</li><br>
+<b>Step 14:</b>Click on <b>‘RESET’</b> button to reload the webpage.<br>

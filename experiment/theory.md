@@ -1,127 +1,62 @@
 
-# Parallel RLC Circuit 
-
-
 ### Theory
 
 <div align="justify" style="font-size:18px;">
 
+The transformer is a device which transfers energy from one electrical circuit to another electrical circuit through magnetic field as coupling medium. In this process it does not change the frequency of voltage or current. It works on the basic principle of electromagnetic induction (mutually induced e.m.f.) being a static device it has a very efficiency as compared to rotating machine of same rating as the losses are less.
 
-We have the three basic passive components Resistance, capacitance and Inductance. When connected to a sinusoidal alternating voltage source they have different phase relationship with each other. But we can connect these passive elements together to form a parallel RLC circuit in parallel with an applied voltage supply.
+<center> 
 
+![transformer1](images/transformer1.png)
 
-<center>
+Figure 1: Single phase transformer on load test
 
-![parallel1](images/parallel1.png)
+</center> 
 
-Figure 1: Parallel RLC Circuit
-</center>
+In a practical transformer there are two type of losses:-
+* Cu loss
+* Core/iron loss
 
-<br>
+Therefore, Output of a transformer is always less than input of the transformer because of losses.
 
-In a pure ohmic resistor the current waveforms are **"in-phase"** with the voltage. In a pure inductance the current waveform **"lags"** the voltage by 90° and in a pure capacitance the current waveform **"leads"** the by 90°.
+Here, Transformer is loaded with a variable resistive load input to the transformer can be by using a wattmeter and output can also be measured by a wattmeter or with the help of voltmeter & ammeter.
 
-The parallel RLC circuit above has a single node so the same instantaneous voltage will be across each element. Here the inductive and capacitive reactance  $X_L $ and  $X_C $ are functions of supply frequency so the sinusoidal response of the parallel RLC circuit will vary with the frequency f. Then the individual voltage drops across each circuit element of R, L and C element will be **"out-of-phase"** with each other as defined by:
+Input power to transformer = reading of wattmeter
 
-<br>
+Output power from transformer = $V_2*I_2$ [since cosɸ=load p.f.=1]
 
- $$V(t) = V~max~ sin(ωt) $$
+When primary winding of transformer is energized with source of voltage $V_1$ an e.m.f. $E_2$ is induced across the secondary winding and it also equal to secondary terminal voltage $V_2$ till there is no load across secondary winding. As soon as load is applied across the secondary winding the terminal voltage is decreased from $E_2$ to $V_2$ this phenomenon of changing the voltage is called *"Voltage regulation"*.
 
-<br>
+$$ VR =\frac {(NoLoadVoltage)-(DerivedLoadVoltage)} {NoLoadVoltage}*100 $$
 
-The instantaneous current through a pure resistor,  $I_R $ is **"in-phase"** with current. The instantaneous current through a pure inductor,  $I_L $ **"lags"** the current by 90°. The instantaneous current through a pure capacitor,  $I_C $ **"leads"** the current by 90°. Therefore,  $I_L $ and  $I_C $ are 180° **"out-of-phase"** and in opposition to each other.
+Transformer's efficiency directly affects its performance and aging. The transformer's efficiency, in general, is in the range of 95 - 99 %. For large power transformers with very low losses, the efficiency can be as high as 99.7%. The input and output measurements of a transformer are not done under loaded conditions as the wattmeter readings inevitably suffer errors of 1 - 2%. So for the purpose of efficiency calculations, OC and SC tests are used to calculate rated core and winding losses in the transformer. The core losses depend on the transformer rated voltage, and the copper losses depend on the currents through the transformer primary and secondary windings. Hence transformer efficiency is of prime importance to operate it under constant voltage and frequency conditions. The rise in the temperature of the transformer due to heat generated affects the life of transformer oil properties and decides the type of cooling method adopted. The temperature rise limits the rating of the equipment. The **Efficiency of transformer** is simply given as:
 
-For above parallel circuit amplitude of the source current across all three components in a parallel RLC circuit is made up of the three individual component currents,  $I_R $,  $I_L $ and  $I_C $ with the voltage as common to all three currents. Therefore, the vector diagram will be drawn as voltage vector as reference and the three currents will be plotted with this reference. We cannot simply add the three currents as they are vector quantities to find the supply voltage  $I_S $. So, to find the supply the current  $I_S $ we need to phasor sum of the three component currents.
+$$ⴄ =\frac {Output power} {Input power} *100 % $$
 
-By applying KCL in the circuit
+<center> 
 
- $$I_S - I_R - I_L- I_C= 0 $$
+![transformer2](images/transformer2.png)
 
- $$I_S - \frac{1} {RL} ∫Vdt- C \frac{dV} {dt}=0 $$
+Figure 2: Plot for efficiency of transformer
 
+</center> 
 
- $$V_S =IR+ \frac{1}{L} ∫Vdt+C \frac{dV} {dt} ........(1) $$
+### Advantages of Single phase transformer:-
 
-<br>
+ * The cost of stand by the unit transformer is reduced.
 
-As the voltage across circuit is common to the all three circuit elements we can use this as a reference vector with the three currents vector drawn relative to the reference voltage vector.
+ * The system is reliable, and service continuity ensures when transformers are connected in parallel.
 
-The resulting vector  $I_S$ is obtained by adding $I_L$ and $I_C$ and the adding this sum to the remaining vector IR. The angle obtained between $I_S $ and  $V_S $ will be the circuit phase angle as shown below.
+ *  The transformer can switch on or off based on the load demand.
 
-<center>
+ *  If more transformed works in parallel the chance of overloading of particular transformer reduces.
 
-![parallel2](images/parallel2.png)
+### Disadvantages of Single phase transformer:-
 
-Figure 2: Current Triangle
-</center>
+ * The maintenance cost becomes more.
 
-This triangle obtained is also called current triangle. Here, Magnitude of voltage,
+ * The space required for installing the transformed is more.
 
- $$|I_S|= \sqrt{(I_R)^2+(I_L-I_C)^2 } ........(2) $$
-
-Voltage has same phase and amplitude in all components of parallel RLC circuit so current through each component can be described mathematically according to the volage across each element as shown below:
-
- $$ I_R= \frac{V}{R} sin(ωt+0°) $$
-
- $$I_L= \frac {V}{X_L} sin(ωt-90°)= \frac{V}{jwL} $$
-
- $$I_C= \frac{V}{X_C} sin(ωt+90°)=Vjωc $$
-
- By substituting these values into the voltage triangle equation above-
-
- $$I_R= \frac{V}{R},I_L= \frac{V} {X_L} , I_C= \frac{V} {X_C} $$
-
- $$I_S=\sqrt{(\frac{V}{R})^2+ (\frac{V}{X_L} -\frac{V}{X_C} )^2 } $$
-
- $$I_S=\frac{V} {\sqrt{(R)^2+ (X_L-X_C )^2 }} $$
-
-On comparing this equation with the equation 1 we can obtain the admittance triangle
-
-<center>
-
-![parallel3](images/parallel3.png)
-
-Figure 3: Admittance Triangle
-</center>
-
-The admittance Y of the parallel RLC circuit depends on the frequency ω as $X_L$ & $X_C$ also depends on it. The admittance of circuit can be written as-
-
-$$Admittance, Y=\frac{1} {Z}=\frac{1}{\sqrt{R^2+ (ωL-\frac{1}{ωC})^2 }}  ........(3)  $$
- 
-The phase angle, Ø between the source voltage $V_S$ and the current I is the same as the angle between Z and R in the impedance triangle.
-
-The impedance Z has two component resistance, R and reactance, X. Similarly, admittance also has two components such as conductance, G (reciprocal of resistance, R) and susceptance, B (reciprocal of reactance, X). So admittance triangle of parallel RLC circuit is completely opposite to that of series impedance triangle. From the admittance triangle phase angle can be calculated as
-
-$$Power factor , Cos∅=\frac{G}{Y} ........(4)$$
-
- $$tan∅=\frac{B}{G} $$
-
-Admittance, Y = G - jB for parallel circuits where the real part G is the conductance and the imaginary part jB is the susceptance. In polar form this will be given as:
-
- $$Y=G+jB=\sqrt{G^2+B^2 }∠\frac{B}{G} $$
-
-Further, power in the circuit can be calculated as,
-
-$$Apparent Power, S=VI $$
-
-$$Active Power, P=VI cos∅ $$
-
-$$Reactive Power, Q= VI sin∅ $$
-
-### Advantages of Parallel RLC circuit
-
- *  Every unit that is connected in a parallel circuit gets equal amount of voltage.
-
- *  It becomes easy to connect or disconnect a new element without affecting the working of other elements.
-
- *  The delta connected load, need not to be opened for connecting the wattmeters.
-
-### Disadvantages of Parallel RLC circuit
-
- *  It requires the use of lot of wires.
-
- *  We cannot increase or multiply the voltage in a parallel circuit.
-
- *  Parallel connection fails at the time when it is required to pass exactly same amount of current through the units.
-
+ * When one or more transformer works on a parallel then chance of fault occurrence will be increased.
+  
 </div>

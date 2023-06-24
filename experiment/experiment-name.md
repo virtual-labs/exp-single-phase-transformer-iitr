@@ -1,1 +1,1 @@
-## To Study and measure the Voltage, Current, Power and Power factor in Parallel RLC circuit.
+## To Study the efficiency of single phase transformer by load test.
