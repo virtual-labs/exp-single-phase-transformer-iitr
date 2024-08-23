@@ -32,7 +32,7 @@
     {
         "question": "What is the correct formula of efficiency of a device?",
         "answers": {
-            "a": "Input / output",
+            "a": "Input/output",
             "b": "Output/ losses",
             "c": "1- losses/  output + losses",
             "d": "Cannot be determined"
@@ -63,7 +63,7 @@
         "question": "A transformer rated for 5kVA, 400V/200V, 50 Hz, has a leakage impedance of $z = r+jx $ referred to HV side. Its voltage regulation at full load will be maximum at a power factor of:",
         "answers": {
             "a": "r/z  leading",
-            "b": "r/x laggin",
+            "b": "r/x lagging",
             "c": "x/z leading",
             "d": "r/z lagging"
         },
