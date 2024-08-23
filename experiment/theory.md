@@ -27,11 +27,11 @@ Output power from transformer = $V_2*I_2$ [since cosɸ=load p.f.=1]
 
 When primary winding of transformer is energized with source of voltage $V_1$ an e.m.f. $E_2$ is induced across the secondary winding and it also equal to secondary terminal voltage $V_2$ till there is no load across secondary winding. As soon as load is applied across the secondary winding the terminal voltage is decreased from $E_2$ to $V_2$ this phenomenon of changing the voltage is called *"Voltage regulation"*.
 
-$$ VR =\frac {(NoLoadVoltage)-(DerivedLoadVoltage)} {NoLoadVoltage}*100 $$
+<center> $ VR =\frac {(NoLoadVoltage)-(DerivedLoadVoltage)} {NoLoadVoltage}*100 $  </center>
 
 Transformer's efficiency directly affects its performance and aging. The transformer's efficiency, in general, is in the range of 95 - 99 %. For large power transformers with very low losses, the efficiency can be as high as 99.7%. The input and output measurements of a transformer are not done under loaded conditions as the wattmeter readings inevitably suffer errors of 1 - 2%. So for the purpose of efficiency calculations, OC and SC tests are used to calculate rated core and winding losses in the transformer. The core losses depend on the transformer rated voltage, and the copper losses depend on the currents through the transformer primary and secondary windings. Hence transformer efficiency is of prime importance to operate it under constant voltage and frequency conditions. The rise in the temperature of the transformer due to heat generated affects the life of transformer oil properties and decides the type of cooling method adopted. The temperature rise limits the rating of the equipment. The **Efficiency of transformer** is simply given as:
 
-$$ⴄ =\frac {Output power} {Input power} *100 % $$
+<center> $ⴄ =\frac {Output power} {Input power} *100 % $  </center>
 
 <center> 
 
