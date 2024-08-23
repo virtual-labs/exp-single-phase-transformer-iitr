@@ -1,0 +1,102 @@
+[
+    {
+        "question": "The reactance of a transformer depends on-",
+        "answers": {
+            "a": "Size of the core",
+            "b": " Size of the tank",
+            "c": "Leakage flux",
+            "d": "All of the above"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which winding of the transformer has less cross-sectional area?",
+        "answers": {
+            "a": "Primary winding",
+            "b": "Secondary winding",
+            "c": "Low voltage winding",
+            "d": "High voltage winding"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "An ideal transformer is one which has-",
+        "answers": {
+            "a": "No losses and magnetic leakage",
+            "b": "Interleaved primary and secondary windingy",
+            "c": "A common core for its primary and secondary windings",
+            "d": "Core of stainless steel and winding of pure copper metal"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": " Negative voltage regulation is indicative that the load is?",
+        "answers": {
+            "a": "Capacitive load",
+            "b": "Inductive load",
+            "c": "Indicative or resistive",
+            "d": "None of the above"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "The necessity of the load test for a transformer to calculate-",
+        "answers": {
+            "a": "Efficiency",
+            "b": "Thermal stability",
+            "c": "Dynamic stability",
+            "d": "All of the above"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "When secondary of a current transformer is open circuited its iron core-",
+        "answers": {
+            "a": "Will be hot because of heavy iron losses taking place in it due to high flux density",
+            "b": "Hot because primary will carry heavy current",
+            "c": "Cool as there is no secondary current",
+            "d": "None of above will happen"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In a transformer on load the total primary current is given by-",
+        "answers": {
+            "a": "Load component of secondary current",
+            "b": "m of magnetizing current and reflected load current on primary side",
+            "c": "Reflected load current on primary side",
+            "d": "Magnetizing current"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "A single phase transformer after having open circuit test gave following reading V~1~=750V, V~2~=500V, I=1A, W=50W When the same transformer runs on load afterwards, what will be the secondary current if the primary current is 250A at 0.8 pf lagging?",
+        "answers": {
+            "a": "374∠-36.7°",
+            "b": "375∠-36.87°",
+            "c": "374∠-38.1°",
+            "d": "375∠-38.1° "
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": " When will be the efficiency of a transformer maximum?",
+        "answers": {
+            "a": "Copper losses = hysteresis losses",
+            "b": "Hysteresis losses = eddy current losses",
+            "c": "Eddy current losses = copper losses",
+            "d": "Copper losses = iron losses"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Efficiency of a power transformer is near to the ___________ .",
+        "answers": {
+            "a": "100%",
+            "b":"98%",
+            "c":"50%",
+            "d":"25%"
+        },
+        "correctAnswer": "b"
+    }
+]
