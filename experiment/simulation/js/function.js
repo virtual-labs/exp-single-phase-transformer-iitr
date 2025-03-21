@@ -56,7 +56,7 @@ var output_l_var = document.getElementById("output_l_var")
 var output_m_var = document.getElementById("output_m_var")
 var output_c_var = document.getElementById("output_c_var")
 
-var knob = document.getElementById("Var_Knob")
+var knob = document.getElementById("Var_Knob");
 
 var swit1 = document.getElementById("Switch1")
 var swit2 = document.getElementById("Switch2")
@@ -136,6 +136,8 @@ var regList = []
 var PowList = []
 
 function task(i, x, y) {
+
+    knob.style.pointerEvents='none';
     setTimeout(function () {
         angle = angle + x
         var_voltage = var_voltage + y
@@ -146,10 +148,10 @@ function task(i, x, y) {
     }, 20 * i);
 }
 
-knob.disabled = true
 
 knob.onclick = function () {
 
+    
 
     if (var_state == 1) {
 
@@ -170,11 +172,12 @@ knob.onclick = function () {
         else if (angle_inc == 3.6) {
             angle_inc = -3.6
             volt_inc = -2.2
-            add.disabled = false
+            add.disabled = false;
         }
     }
 
 }
+
 
 
 const instance = jsPlumb.getInstance({
@@ -457,16 +460,290 @@ check.onclick = function MyCheck() {
     }
 
     if (arrChk.length == 18) {
-        window.alert("Right Connections")
-        arrChk = arrChkStore
+        window.alert("Right Connections");
+        
+        document.getElementById("p_mcb").style.pointerEvents='none';
+        document.getElementById("n_mcb").style.pointerEvents='none';
+        document.getElementById("a_var").style.pointerEvents='none';
+        document.getElementById("b_var").style.pointerEvents='none';
+        document.getElementById("c_var").style.pointerEvents='none';
+        document.getElementById("d_var").style.pointerEvents='none';
+        document.getElementById("p_v").style.pointerEvents='none';
+        document.getElementById("n_v").style.pointerEvents='none';
+        document.getElementById("p_a").style.pointerEvents='none';
+        document.getElementById("n_a").style.pointerEvents='none';
+        document.getElementById("v_w").style.pointerEvents='none';
+        document.getElementById("l_w").style.pointerEvents='none';
+        document.getElementById("m_w").style.pointerEvents='none';
+        document.getElementById("c_w").style.pointerEvents='none';
+        document.getElementById("transformer_a").style.pointerEvents='none';
+        document.getElementById("transformer_b").style.pointerEvents='none';
+        document.getElementById("transformer_c").style.pointerEvents='none';
+        document.getElementById("transformer_d").style.pointerEvents='none';
+        document.getElementById("lamp_load_a").style.pointerEvents='none';
+        document.getElementById("lamp_load_b").style.pointerEvents='none';
+        document.getElementById("output_p_v").style.pointerEvents='none';
+        document.getElementById("output_n_v").style.pointerEvents='none';
+        document.getElementById("output_p_a").style.pointerEvents='none';
+        document.getElementById("output_n_a").style.pointerEvents='none';
+        document.getElementById("output_v_var").style.pointerEvents='none';
+        document.getElementById("output_l_var").style.pointerEvents='none';
+        document.getElementById("output_m_var").style.pointerEvents='none';
+        document.getElementById("output_c_var").style.pointerEvents='none';
+
+
+        instance.addEndpoint([p_mcb, m_w, output_p_a], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true
+        })
+    
+        instance.addEndpoint([p_v, p_a], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["StateMachine", { curviness: -40 }]
+        })
+        instance.addEndpoint([c_var, l_w], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["StateMachine", { curviness: -50 }]
+        })
+    
+    
+        instance.addEndpoint([m_w, c_w], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["Bezier", { curviness: 150 }]
+        })
+    
+        instance.addEndpoint([output_p_v], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["StateMachine", { curviness: -50 }]
+        })
+    
+        instance.addEndpoint([v_w], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)" },
+            connectionType: "negative",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["Bezier", { curviness: 150 }]
+        })
+    
+    
+    
+        instance.addEndpoint([output_n_v, output_n_a], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+    
+        })
+    
+        instance.addEndpoint([n_a], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: 10 }]
+    
+        })
+    
+    
+        instance.addEndpoint([n_v], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: -60 }]
+    
+        })
+    
+    
+        instance.addEndpoint([n_mcb], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: 50 }]
+    
+        })
+    
+        instance.addEndpoint([d_var], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: -20 }]
+    
+        })
+    
+        instance.addEndpoint([output_n_a], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: -50 }]
+    
+        })
+    
+    
+        instance.addEndpoint([output_n_v], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: -100 }]
+    
+        })
+    
+        instance.addEndpoint([transformer_d], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 0 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["Bezier", { curviness: 180 }]
+    
+        })
+    
+        instance.addEndpoint([transformer_c], {
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)" },
+            connectionType: "positive",
+            maxConnections: 0,
+            connectionsDetachable: true,
+            connector: ["Bezier", { curviness: 90 }]
+        })
+    
+        instance.addEndpoint([a_var, transformer_a, lamp_load_a, output_l_var, output_m_var, output_c_var], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(97,106,229)", strokeWidth: 2.5 },
+            connectionType: "positive",
+            connectionsDetachable: true,
+            maxConnections: 0,
+        })
+    
+        instance.addEndpoint([b_var, transformer_b, transformer_d, lamp_load_b, output_v_var], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0
+        })
+    
+        instance.addEndpoint([lamp_load_b], {
+    
+            endpoint: "Dot",
+            anchor: ["Center"],
+            isSource: true,
+            isTarget: true,
+            paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
+            connectionType: "negative",
+            connectionsDetachable: true,
+            maxConnections: 0,
+            connector: ["StateMachine", { curviness: -230 }]
+        })
+        
+        arrChk = arrChkStore;
         arrChk = []
-        mcb_disabled = 0
+        mcb_disabled = 0;
+        check.disabled=1;
         //code for the case when connections are correct
+    }  else if (instance.getConnections().length == 0) {
+        window.alert("Please make the connections!");
     }
 
     else {
-        window.alert("Please make all the Connections");
+
+        window.alert("Invalid Connections!");
         window.location.reload();
+        console.log("arrChk");
+        console.log(ThreeNode);
+
     }
 }
 
@@ -476,7 +753,7 @@ function disconnect(num) {
     let node_list = [p_mcb, n_mcb, a_var, b_var, c_var, d_var, p_v, n_v, p_a, n_a, v_w, l_w, m_w, c_w, transformer_a, transformer_b, transformer_c, transformer_d, lamp_load_a, lamp_load_b,
         output_p_v, output_n_v, output_p_a, output_n_a, output_v_var, output_l_var, output_m_var, output_c_var]
 
-    instance.deleteConnectionsForElement(node_list[num])
+    instance.deleteConnectionsForElement(node_list[num]);
 
 }
 
@@ -485,27 +762,39 @@ MCB.onclick = function togglemcb() {
         if (mcb_state == 0) {
             this.src = "images/MCB_ON.png"
             mcb_state = 1
-            var_disabled = 0
+            var_disabled = 0;
+            MCB.style.pointerEvents = 'none';
         }
 
         else if (mcb_state == 1) {
             this.src = "images/MCB_Off.png"
             mcb_state = 0;
-            var_disabled = 1
+            var_disabled = 1;
             Var.src = "images/Variac_OFF.png"
         }
     }
 }
 
 Var.onclick = function togglevar() {
+
+   
+
     if (var_disabled == 0) {
         if (var_state == 0) {
-            this.src = "images/Variac_ON.png"
-            var_state = 1
+            this.src = "images/Variac_ON.png";
+            var_state = 1;
+            mcb_disabled=1;
+            Var.disabled=0;
+            
+           Var.style.pointerEvents='none';
+           
         }
+
         else if (var_state == 1) {
-            this.src = "images/Variac_OFF.png"
-            var_state = 0
+            this.src = "images/Variac_OFF.png";
+            var_state = 0;
+          
+            
         }
     }
 }
@@ -603,6 +892,7 @@ function isConnected(node1, node2) {
 }
 
 function rotateNeedle(needle, angle) {
+
     needle.style.transform = "rotate(" + angle + "deg)"
 }
 
@@ -618,6 +908,8 @@ function updateAmmeters() {
         w2val = 0 * (var_voltage / 220)
         eff = 0
         reg =0
+        
+        
     }
     else if (swtState == 1) {
         v1val = 218 * (var_voltage / 220)
@@ -658,7 +950,6 @@ function updateAmmeters() {
 
 }
 
-
 add.onclick = function AddToTable() {
 
 let row = vtable.insertRow(index);
@@ -688,14 +979,17 @@ let row = vtable.insertRow(index);
     PowList.push(w2val.toFixed(0))
 
     if(swtState == 0){
+
         sw1_disabled = 0
         sw2_disabled = 1
         sw3_disabled = 1
         switch1.style.color = 'red'
         switch2.style.color = 'white'
         switch3.style.color = 'white'
+        mcb_disabled = 1;
     }
     if(swtState == 1){
+
         sw1_disabled = 1
         sw2_disabled = 0
         sw3_disabled = 1
@@ -704,6 +998,7 @@ let row = vtable.insertRow(index);
         switch3.style.color = 'white'
     }
     if(swtState == 2){
+
         sw1_disabled = 1
         sw2_disabled = 1
         sw3_disabled = 0
@@ -712,9 +1007,11 @@ let row = vtable.insertRow(index);
         switch3.style.color = 'red'
     }
     if(swtState == 3){
+
         sw1_disabled = 1
         sw2_disabled = 1
         sw3_disabled = 1
+        plot.disabled=0;
     }
     this.disabled = true
 
@@ -726,14 +1023,12 @@ prnt.onclick = function prntScr() {
 }
 
 plot.onclick = function () {
-    if (vtable.rows.length >= 4) {
+    plot.disabled=1;
+    prnt.disabled = false;
 
-        prnt.disabled = false
-        plot.disabled=1;
-
-        var temp1 = document.getElementById("chart-container")
-        var temp2 = temp1.innerHTML
-        temp1.innerHTML = temp2
+        var temp1 = document.getElementById("chart-container");
+        var temp2 = temp1.innerHTML;
+        temp1.innerHTML = temp2;
         
         window.scrollTo({
             top: 750,
@@ -783,12 +1078,10 @@ plot.onclick = function () {
                 }
             }
         });
-    }
-    else{
-        window.alert("Please enter atleast 4 obseravtions to the table.")
-    }
 }
+    
 
+        
 // plot.onclick = function (){
 //     console.log("i am alive")
     // if (vtable.ariaRowSpan.length >= 4) {
