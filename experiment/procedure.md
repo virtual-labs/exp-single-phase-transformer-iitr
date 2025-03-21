@@ -11,7 +11,10 @@
 **(h)** (22-25) <br>
 **(i)** (19-26,20-25)<br><br>
 
-**Note: Click on the label to delete the connection for the corresponding node.** <br>       
+**Note: Click on the label to delete the connection for the corresponding node.** <br>   
+
+<img src="simulation/images/TransformerByLoad.png" height="325" width="600"/> <br/>
+
 **(a)** Now, Check the connections by clicking on <b>‘CHECK’</b> button.<br>
 **(b)** If the connections are <b> ‘Invalid connections’</b> the webpage will reload automatically.<br>
 **(c)** And if the connections are <b> ‘Right Connections’</b> then follow the below steps.<br>

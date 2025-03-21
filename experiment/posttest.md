@@ -2,6 +2,8 @@
 
 #### Please attempt the folloeing questions
 
+### Note- Reference books are available in the reference section.
+
 <div align="justify" style="font-size:18px;">
 
 Q1. On which factors transformer routine efficiency depends upon?
@@ -24,7 +26,7 @@ C. 50% full load
 
 D. No load
 
-Q3. A transformer having maximum efficiency at 75% full load will have ratio of iron loss and full load copper loss equal to ____________.
+Q3. A transformer having maximum efficiency at 75% full load will have the ratio of iron loss and full load copper loss equal to ?
 
 A. 4/3
 
@@ -34,7 +36,7 @@ C. 9/16
 
 D. 16/9
 
-Q4. What is the correct formula of efficiency of a device?
+Q4. What is the correct formula of efficiency of a transformer?
 
 A. $\frac{Input} {output}$
 
@@ -44,7 +46,7 @@ C. $ 1 - \frac{(losses)} {(output + losses)}$
 
 D. Cannot be determined
 
-Q5. A transformer will have zero regulation at pf?
+Q5. A transformer will have zero regulation at?
 
 A. Zero pf
 
@@ -74,15 +76,15 @@ C. $\frac{X}{Z}$ leading
 
 D. $\frac{R}{Z}$ lagging
 
-Q8. In a transformer zero voltage regulation at full load can happen
+Q8. When a transformer is operating at full load with a lagging power factor, how does the core loss(iron loss) and copper loss behave with respect to the load?
 
-A. At leading power factor load
+A. Core loss increases with the load, while copper loss remains constant.
 
-B. At lagging power factor load
+B. Copper loss increases with the load, while core loss remains constant.
 
-C. A unity power factor load
+C. Both core loss and copper loss increase with the load.
 
-D. Cannot happen at all
+D. Both core loss and copper loss decrease with the load.
 
 Q9. The voltage regulation of a transformer having 2% resistance and 5% reactance at full load, 0.8 pf lagging is
 

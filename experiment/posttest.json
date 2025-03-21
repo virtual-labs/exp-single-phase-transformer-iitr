@@ -20,19 +20,19 @@
         "correctAnswer": "a"
     },
     {
-        "question": "A transformer having maximum efficiency at 75% full load will have ratio of iron loss and full load copper loss equal to ___________",
+        "question": "A transformer having maximum efficiency at 75% full load will have the ratio of iron loss and full load copper loss equal to ___________",
         "answers": {
             "a": "4/3",
             "b": "3/4",
-            "c": " 9/16",
+            "c": "9/16",
             "d": "16/9"
         },
         "correctAnswer": "c"
     },
     {
-        "question": "What is the correct formula of efficiency of a device?",
+        "question": "What is the correct formula for the efficiency of a transformer?",
         "answers": {
-            "a": "Input/output",
+            "a": "Input / output",
             "b": "Output/ losses",
             "c": "1- losses/  output + losses",
             "d": "Cannot be determined"
@@ -40,7 +40,7 @@
         "correctAnswer": "c"
     },
     {
-        "question": "A transformer will have zero regulation at?(pf = power factor)",
+        "question": "A transformer will have zero regulation at",
         "answers": {
             "a": "Zero pf",
             "b": "Leading pf",
@@ -63,19 +63,19 @@
         "question": "A transformer rated for 5kVA, 400V/200V, 50 Hz, has a leakage impedance of $z = r+jx $ referred to HV side. Its voltage regulation at full load will be maximum at a power factor of:",
         "answers": {
             "a": "r/z  leading",
-            "b": "r/x lagging",
+            "b": "r/x laggin",
             "c": "x/z leading",
             "d": "r/z lagging"
         },
         "correctAnswer": "d"
     },
     {
-        "question": "In a transformer zero voltage regulation at full load can happen",
+        "question": "When a transformer is operating at full load with a lagging power factor, how does the core loss(iron loss) and copper loss behave with respect to the load?",
         "answers": {
-            "a": "At leading power factor load",
-            "b": "At lagging power factor load",
-            "c": "A unity power factor load",
-            "d": "Can not happen at all"
+            "a": "Core loss increases with the load, while copper loss remains constant.",
+            "b": "Copper loss increases with the load, while core loss remains constant.",
+            "c": "Both core loss and copper loss increase with the load.",
+            "d": "Both core loss and copper loss decrease with the load."
         },
         "correctAnswer": "a"
     },

@@ -20,9 +20,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/startup.js"
         integrity="sha512-TVq6RFk599KMqPh7Ri0yEAxHbJ0dcxSSPgvMuzQUg0wu4z+X7z2PsibMbbzAq/AHloHdxMW0FdvKv9k4s8niuA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"> </script>
-
-
-
+        
     <!--  Ajax Library-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
@@ -69,7 +67,6 @@
 </head>
 
 <body>
-
     <div class="container">
 
         <!--ROW1-->
@@ -85,7 +82,7 @@
                 <p>Instructions</p>
 
                 <ul type="none" class="steps">
-                    <li id="s1"><b> Step 1:</b> Make connections as per the instructions given below:</li><br>
+                    <li><b> Step 1:</b> Make connections as per the instructions given below:</li><br>
 
                     (a) (1-3 , 2-4) <br>
                     (b) (5-7 , 6-8)<br>
@@ -97,42 +94,41 @@
                     (h) (22-25) <br>
                     (i) (19-26,20-25)<br><br>
 
-
-                    <li id="s2"><b> Note: Click on the label to delete the connection for the corresponding node </b>
+                    <li ><b> Note: Click on the label to delete the connection for the corresponding node </b>
                     </li><br>
 
 
-                    <li id="s3"><b>(a)</b>Now, Check the connections by clicking on <b>‘CHECK’</b> button.</li><br>
-                    <li id="s4"><b>(b)</b>If the connections are <b> ‘Invalid connections’</b> the webpage will reload
+                    <li><b>(a)</b>Now, Check the connections by clicking on <b>‘CHECK’</b> button.</li><br>
+                    <li><b>(b)</b>If the connections are <b> ‘Invalid connections’</b> the webpage will reload
                         automatically.</li> <br>
-                    <li id="s5"><b>(c)</b>And if the connections are <b> ‘Right Connections’</b> then follow the below
+                    <li><b>(c)</b>And if the connections are <b> ‘Right Connections’</b> then follow the below
                         steps.</li> <br>
 
-                    <li id="s6"><b>Step 2:</b>Turn on the MCB.</li><br>
-                    <li id="s7"><b>Step 3:</b> Then, switch on the variac by clicking on the button.</li><br>
-                    <li id="s8"><b>Step 4:</b>Then, Click on the variac knob to set the voltage at 230V.</li><br>
+                    <li><b>Step 2:</b>Turn on the MCB.</li><br>
+                    <li><b>Step 3:</b> Then, switch on the variac by clicking on the button.</li><br>
+                    <li><b>Step 4:</b>Then, Click on the variac knob to set the voltage at 230V.</li><br>
 
-                    <li id="s8"><b> Note: Once, we have click on the variac knob it automatically set to 230V. So we
+                    <li><b> Note: Once, we have click on the variac knob it automatically set to 230V. So we
                             don’t have to set it again. </b> </li><br>
 
                             <li id="s9"> <b>Step 5:</b> Now, Click on <b>'ADD'</b> button to take the reading with no-load.  </li><br>
 
-                    <li id="s10"><b>Step 6:Case 1:</b>Then, Click on the <b> switch1</b> to Turn on the first row of the
+                    <li><b>Step 6:Case 1:</b>Then, Click on the <b> switch1</b> to Turn on the first row of the
                         Lamp load.</li><br>
-                    <li id="s11"><b>Step 7:</b>Now, Click on <b> ‘ADD’</b> button to add the readings in the observation
+                    <li><b>Step 7:</b>Now, Click on <b> ‘ADD’</b> button to add the readings in the observation
                         table. </li><br>
-                    <li id="s12"><b>Step 8:Case 2:</b>Then, Click on the <b> switch2</b> to Turn on the Second row of
+                    <li><b>Step 8:Case 2:</b>Then, Click on the <b> switch2</b> to Turn on the Second row of
                         the Lamp load.</li> <br>
-                    <li id="s13"><b>Step 9:</b>Now, Click on <b>‘ADD’ </b> button to add the readings in the observation
+                    <li><b>Step 9:</b>Now, Click on <b>‘ADD’ </b> button to add the readings in the observation
                         table.</b></li><br>
-                    <li id="s14"><b>Step 10:Case 3:</b>Then, Click on the <b> switch3</b> to Turn on the third row of the
+                    <li><b>Step 10:Case 3:</b>Then, Click on the <b> switch3</b> to Turn on the third row of the
                         Lamp load.</li><br>
-                    <li id="s15"><b>Step 11:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation
+                    <li><b>Step 11:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation
                         table. </li><br>
-                    <li id="s16"><b>Step 12:</b>Now, Click on <b>‘PLOT’</b> button to plot the graph.</b></li><br>
-                    <li id="s17"><b>Step 13:</b>Click on <b>‘PRINT’</b> button to takeout the print of the webpage.</li>
+                    <li><b>Step 12:</b>Now, Click on <b>‘PLOT’</b> button to plot the graph.</b></li><br>
+                    <li><b>Step 13:</b>Click on <b>‘PRINT’</b> button to takeout the print of the webpage.</li>
                     <br>
-                    <li id="s18"><b>Step 14:</b>Click on <b>‘RESET’</b> button to reload the webpage.</li><br>
+                    <li><b>Step 14:</b>Click on <b>‘RESET’</b> button to reload the webpage.</li><br>
 
                 </ul>
 
@@ -155,20 +151,20 @@
                     <div class="control-panel-buttons">
                         <button id="check" disabled>CHECK</button>
                         <button id="add" disabled="true">ADD</button>
-                        <button id="plot">PLOT</button>
+                        <button id="plot" disabled="true">PLOT </button>
                         <button id="reset" onclick='window.location.reload();'>RESET</button>
-                          <button id="print" onclick=' window.print();' disabled="true">PRINT</button> 
+                          <button id="print" onclick=' window.print();'disabled="true">PRINT</button> 
                         <!--THIS IS TO BE KEPT IN A FLEX BOX-->
                     </div>
                 </div>
                 <!--Row 2 Col 1 Row1-->
 
-                <div class="formulas">
+            <!--     <div class="formulas">
                     <p style=" padding:4px;color:white; border-radius: 10px; border:2.5px solid black; background-color:#1e1e1e;" ><b>FORMULAS</b></p>
-                    <!--   <formula-text>Power Factor <br> = True Power/Apparent Power
+                      <formula-text>Power Factor <br> = True Power/Apparent Power
                         <br>
                           = cos(Phase angle)
-                            </formula-text>      -->
+                            </formula-text>      
 
                     <b> Efficiency= Output power / Input power * 100 <br>
 
@@ -177,7 +173,7 @@
                         Vso- Secondary terminal voltage at no-load. <br>
                         Vs - Secondary terminal voltage on load. </b><br>
 
-                </div>
+                </div>  -->
 
                 <!--Row 2 Col 1 Row2-->
 
@@ -292,7 +288,7 @@
 
                             <div class="positive">
 
-                                <button id="p_mcb"> <label onclick="disconnect(0)">1</label> </button>
+                                <button id="p_mcb"> <label style="z-index: 2;" onclick="disconnect(0)">1</label> </button>
                                 <button id="n_mcb"> <label onclick="disconnect(1)">2</label> </button>
                                 <button id="a_var"> <label onclick="disconnect(2)">3</label> </button>
                                 <button id="b_var"> <label onclick="disconnect(3)">4</label> </button>
@@ -305,17 +301,14 @@
                                 <!--  <button id="p_switch"></button>-->
                                 <!--  <button id="n_switch"></button>-->
 
-                                <button id="p_v"> <label onclick="disconnect(6)">7</label> </button>
-                                <button id="n_v"> <label onclick="disconnect(7)">8</label> </button>
+                                <button id="p_v"> <label style="z-index: 2;" onclick="disconnect(6)">7</label> </button>
+                                <button id="n_v"> <label style="z-index: 2;" onclick="disconnect(7)">8</label> </button>
                                 <button id="p_a"> <label onclick="disconnect(8)">9</label> </button>
                                 <button id="n_a"> <label onclick="disconnect(9)">10</label> </button>
-                                <button id="v_w"> <label onclick="disconnect(10)">11</label> </button>
+                                <button id="v_w"> <label style="z-index: 2;" onclick="disconnect(10)">11</label> </button>
                                 <button id="l_w"> <label onclick="disconnect(11)">12</label> </button>
                                 <button id="m_w"> <label onclick="disconnect(12)">13</label> </button>
                                 <button id="c_w"> <label onclick="disconnect(13)">14</label> </button>
-
-
-
 
                                 <!-- <button id="var_on"> </button> -->
 
@@ -324,9 +317,8 @@
                                 <button id="transformer_c"> <label onclick="disconnect(16)">17</label> </button>
                                 <button id="transformer_d"> <label onclick="disconnect(17)">18</label> </button>
 
-                                <button id="lamp_load_a"> <label onclick="disconnect(18)">19</label> </button>
-                                <button id="lamp_load_b"> <label onclick="disconnect(19)">20</label> </button>
-
+                                <button id="lamp_load_a"> <label style="z-index: 2;" onclick="disconnect(18)">19</label> </button>
+                                <button id="lamp_load_b"> <label style="z-index: 2;" onclick="disconnect(19)">20</label> </button>
 
                                 <!--   Button nodes for the Output instruments (Voltmeter)   -->
 
@@ -344,10 +336,10 @@
 
                                 <!--  <button id="output_p_b_a">  <label onclick="disconnect(22)"> 27 </label> </button>    -->
 
-                                <button id="output_v_var"> <label onclick="disconnect(24)">25</label> </button>
-                                <button id="output_l_var"> <label onclick="disconnect(25)">26</label> </button>
-                                <button id="output_m_var"> <label onclick="disconnect(26)">27</label> </button>
-                                <button id="output_c_var"> <label onclick="disconnect(27)">28</label> </button>
+                                <button id="output_v_var"> <label style="z-index: 2;" onclick="disconnect(24)">25</label> </button>
+                                <button id="output_l_var"> <label style="z-index: 2;" onclick="disconnect(25)">26</label> </button>
+                                <button id="output_m_var"> <label style="z-index: 2;" onclick="disconnect(26)">27</label> </button>
+                                <button id="output_c_var"> <label style="z-index: 2;" onclick="disconnect(27)">28</label> </button>
 
                                 <!--  <button id="p_l"></button> -->
                                 <!--  <button id="n_l"></button>  -->
