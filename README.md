@@ -5,7 +5,7 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|     <b>9. To Study the efficiency of single phase transformer by load test.
+<b> Experiment|     <b>8. To Study the efficiency of single phase transformer by load test.
 
 <h5> About the Experiment : </h5> <br>
 
